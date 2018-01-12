@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Z17S工具箱</string>
+    <string name="action_settings">设置</string>
+    <string name="text_volume">音量</string>
+    <string name="text_volume_system">系统音量</string>
+    <string name="text_volume_media">媒体音量</string>
+    <string name="text_volume_ring">铃声音量</string>
+    <string name="text_playsound">播放声音</string>
+    <string name="action_update">更新</string>
+    <string name="title_activity_hide_enter">隐藏的入口</string>
+    <string name="text_onehandmode">单手模式</string>
+    <string name="text_wps">WPS Office (nubia版)</string>
+    <string name="text_bugcannotuse">这个功能有问题暂时无法使用。</string>
+</resources>

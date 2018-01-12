@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.zhihaofans.nubia_z17s_toolbox.view.VolumeActivity"
+    tools:showIn="@layout/activity_volume">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/coordinatorLayout_volume"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView_ring"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_volume_ring" />
+
+            <SeekBar
+                android:id="@+id/seekBar_ring"
+                style="@android:style/Widget.Material.Light.SeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="10"
+                android:progress="3" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/textView_media"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_volume_media" />
+
+            <SeekBar
+                android:id="@+id/seekBar_media"
+                style="@android:style/Widget.Material.Light.SeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="10"
+                android:progress="3" />
+
+        </LinearLayout>
+    </android.support.design.widget.CoordinatorLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Z17S Toolbox</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_volume">Volume</string>
+    <string name="text_volume_system">System volume</string>
+    <string name="text_volume_media">Media volume</string>
+    <string name="text_volume_ring">Ring volume</string>
+    <string name="text_playsound">Play sound</string>
+    <string name="action_update">Update</string>
+    <string name="title_activity_hide_enter">Hidden entrance</string>
+    <string name="text_onehandmode">One-hand mode</string>
+    <string name="text_wps">WPS Office (nubia Version)</string>
+    <string name="text_bugcannotuse">It has bugs,so you can\'t use it now.</string>
+</resources>
